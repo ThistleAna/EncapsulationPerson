@@ -47,6 +47,10 @@ public class PersonCreator { // no main method here,
         return weight;
     }
 
-
+    // create a new method growOlder(), set the age to increase by one, and to decrease the height by 1
+    public void  growOlder() { // behavioural method
+        setAge(getAge() + 1); // older by 1 year
+        setHeight(getHeight() - 1); // height decrease by 1
+    }
 
 }
